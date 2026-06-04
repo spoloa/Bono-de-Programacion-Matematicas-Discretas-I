@@ -9,7 +9,7 @@ Docente: Jhoan Sebastian Tenjo García
 En este repositorio se presentan las soluciones a dos ejercicios de combinatoria y conteo, desarrollados como bono programable de la asignatura Matemáticas Discretas I. Cada ejercicio cuenta con documentación del razonamiento matemático empleado, así como con una interfaz visual interactiva.
 
 ---
-## Cómo ejecutar
+## Requisitos
 
 Necesitas Python 3.7 o superior. No requiere instalar nada extra.
 
