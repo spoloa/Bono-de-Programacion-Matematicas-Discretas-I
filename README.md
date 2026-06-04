@@ -13,8 +13,6 @@ En este repositorio se presentan las soluciones a dos ejercicios de combinatoria
 
 Necesitas Python 3.7 o superior. No requiere instalar nada extra.
 
-1. Clona el repositorio o descarga los archivos
-
 ```bash
 python problema8.py
 python problema9.py
