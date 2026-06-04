@@ -242,3 +242,20 @@ El listado exhaustivo de palabras (extensión opcional) tiene complejidad **O(n!
 ├── problema9.py
 └── README.md
 ```
+
+---
+
+## Nota sobre el uso de IA
+
+Durante el desarrollo de este trabajo se utilizó inteligencia artificial (Claude de Anthropic)
+como apoyo puntual en la implementación, dado que Python no es un lenguaje con el que
+tenga experiencia previa.
+
+El uso se limitó a:
+- Ayuda con sintaxis específica de Python (formato de strings, manejo de listas, funciones de `itertools`).
+- Corrección de errores puntuales en el código.
+- Sugerencias sobre cómo estructurar la salida en consola.
+
+La comprensión matemática de los problemas, la elección de las fórmulas, la lógica del
+algoritmo y la verificación de los resultados fueron desarrolladas de forma propia a partir
+de los temas vistos en clase.
