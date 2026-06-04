@@ -25,7 +25,7 @@ python problema9.py
 **Opción 1 — Clonar el repositorio (si tienes Git):**
 ```bash
 git clone <https://github.com/spoloa/Bono-de-Programacion-Matematicas-Discretas-I>
-cd <nombre-de-la-carpeta>
+cd <Bono Discretas>
 ```
 
 **Opción 2 — Descargar manualmente:**  
