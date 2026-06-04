@@ -1,6 +1,6 @@
 # Bono de Programación — Matemáticas Discretas I
 **Universidad Nacional de Colombia**  
-Estudiante: Sebastian Polo Alvarez
+Estudiante: Sebastian Polo Alvarez -
 Docente: Jhoan Sebastian Tenjo García 
 
 ---
