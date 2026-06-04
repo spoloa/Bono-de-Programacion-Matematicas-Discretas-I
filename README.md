@@ -238,9 +238,9 @@ El listado exhaustivo de palabras (extensión opcional) tiene complejidad **O(n!
 
 ```
 /
-├── README.md 
-├── problema8.py
-└── problema9.py
+├── README.md  
+└── Bono Discretas ┌── problema8.py
+                   └── problema9.py
 ```
 
 ---
