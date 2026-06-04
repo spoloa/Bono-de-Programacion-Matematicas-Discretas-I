@@ -22,6 +22,41 @@ python problema9.py
 
 ---
 
+## Cómo descargar los archivos
+
+**Opción 1 — Clonar el repositorio (si tienes Git):**
+```bash
+git clone <url-del-repositorio>
+cd <nombre-de-la-carpeta>
+```
+
+**Opción 2 — Descargar manualmente:**  
+En la página del repositorio haz clic en `Code → Download ZIP`, descomprime la carpeta y entra a ella.
+
+---
+
+## Cómo ejecutar los programas
+
+1. Abre una terminal (en Windows: `cmd` o `PowerShell`, en Mac/Linux: `Terminal`).
+2. Navega hasta la carpeta donde están los archivos:
+
+```bash
+cd ruta/a/la/carpeta
+```
+
+3. Ejecuta el programa que quieras:
+
+```bash
+python problema8.py
+python problema9.py
+```
+
+> En algunos sistemas puede ser necesario escribir `python3` en lugar de `python`.
+
+Cada programa primero corre sus pruebas automáticas y luego entra en modo interactivo donde te pide los datos.
+
+---
+
 ## Problema 8 — Caminos mínimos en una grilla
 
 ### 1. Descripción del problema
@@ -42,6 +77,50 @@ $$C(a+b,\ a) = \frac{(a+b)!}{a! \cdot b!}$$
 ### 4. Código
 
 Archivo: `problema8.py`
+
+### Instrucciones de ejecución
+
+Corre el programa con:
+
+```bash
+python problema8.py
+```
+
+El programa primero ejecuta las pruebas automáticas y luego te pide los datos uno por uno:
+
+```
+Ingrese a (columnas): 4
+Ingrese b (filas):    3
+```
+
+Luego te pregunta si quieres agregar restricciones opcionales:
+
+```
+¿Agregar punto obligatorio? (s/n):
+```
+→ Si escribes `s`, te pide las coordenadas `x` e `y` del punto por el que debe pasar el camino.
+
+```
+¿Agregar puntos bloqueados? (s/n):
+```
+→ Si escribes `s`, te pregunta cuántos puntos bloqueados quieres y las coordenadas de cada uno.
+
+```
+¿Dibujar la grilla? (s/n):
+```
+→ Si escribes `s`, imprime una tabla visual con el número de caminos que llegan a cada celda:
+
+```
+   1    4   10   20  [*]
+   1    3    6   10   15
+   1    2    3    4    5
+  [O]   1    1    1    1
+
+[O]=origen  [*]=destino  [X]=bloqueado
+Caminos totales hasta destino: 35
+```
+
+> Escribe siempre `s` o `n` cuando el programa lo pida, y números enteros no negativos para `a` y `b`.
 
 ### 5. Pruebas
 
@@ -89,6 +168,49 @@ donde $n_1, n_2, \ldots, n_k$ son las frecuencias de cada símbolo distinto y $n
 ### 4. Código
 
 Archivo: `problema9.py`
+
+### Instrucciones de ejecución
+
+Corre el programa con:
+
+```bash
+python problema9.py
+```
+
+El programa primero ejecuta las pruebas automáticas y luego te pregunta el modo de entrada:
+
+```
+Modo 1: ingresar una palabra  (ej: BANANA)
+Modo 2: ingresar frecuencias  (ej: 4 letras A, 3 letras B)
+Escoja modo (1 o 2):
+```
+
+**Modo 1 — palabra:**
+```
+Ingrese la palabra: BANANA
+```
+→ El programa muestra la frecuencia de cada letra, la fórmula con los valores reales y el resultado:
+```
+Palabra: BANANA
+  A: 3 vez/veces
+  B: 1 vez/veces
+  N: 2 vez/veces
+
+Formula: 6! / (3! * 1! * 2!) = 60
+Palabras distintas: 60
+```
+→ Si la palabra tiene 8 letras o menos, pregunta si quieres listar todas las palabras distintas.
+
+**Modo 2 — frecuencias manuales:**
+```
+Cuantos tipos de letra/objeto distintos: 3
+  Cantidad del tipo 1: 4
+  Cantidad del tipo 2: 3
+  Cantidad del tipo 3: 2
+```
+→ Calcula y muestra el resultado. Si n ≤ 8 también ofrece listar los arreglos.
+
+> La palabra debe contener solo letras (sin números ni espacios). El programa avisa si la entrada no es válida.
 
 ### 5. Pruebas
 
