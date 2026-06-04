@@ -255,7 +255,7 @@ El uso se limitó a:
 - Ayuda con sintaxis específica de Python (formato de strings, manejo de listas, funciones de `itertools`).
 - Corrección de errores puntuales en el código.
 - Sugerencias sobre cómo estructurar la salida en consola.
-- Ayuda para algunas redacciones
+- Ayuda para algunas redacciones.
 
 La comprensión matemática de los problemas, la elección de las fórmulas, la lógica del
 algoritmo y la verificación de los resultados fueron desarrolladas de forma propia a partir
